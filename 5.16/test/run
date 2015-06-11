@@ -170,7 +170,7 @@ test_application() {
   # Wait for the container to write it's CID file
   wait_for_cid
 
-  test_scl_usage "perl --version" "v5.16.3"
+  test_scl_usage "perl --version" "v5.16"
   check_result $?
 
   test_connection
